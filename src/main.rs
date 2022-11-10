@@ -2,7 +2,8 @@
 // mod guess_number;
 // mod variables;
 // mod data_type;
-mod functions;
+// mod functions;
+mod control_flow;
 fn main() {
     // println!("Hello, world!");
 
@@ -10,6 +11,8 @@ fn main() {
     // guess_number::guess_number();
     // variables::variables();
     // data_type::data_type();
-    let return_value = functions::functions(32);
-    println!("The value of function's return : {return_value}");
+    // let return_value = functions::functions(32);
+    // let return_value = control_flow::control_flow(5);
+
+    control_flow::control_flow();
 }
