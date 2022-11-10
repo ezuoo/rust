@@ -1,3 +1,4 @@
+// https://rinthel.github.io/rust-lang-book-ko/ch03-02-data-types.html
 pub fn data_type() {
   // let guess = "42".parse().expect("Not a number!");
   // error[E0282]: type annotations needed

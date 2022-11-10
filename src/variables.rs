@@ -1,3 +1,4 @@
+// https://rinthel.github.io/rust-lang-book-ko/ch03-01-variables-and-mutability.html
 pub fn variables() {
   // let x = 5;
   // error[E0384]: cannot assign twice to immutable variable `x`

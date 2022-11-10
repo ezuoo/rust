@@ -3,7 +3,8 @@
 // mod variables;
 // mod data_type;
 // mod functions;
-mod control_flow;
+// mod control_flow;
+mod ownership;
 fn main() {
     // println!("Hello, world!");
 
@@ -13,6 +14,7 @@ fn main() {
     // data_type::data_type();
     // let return_value = functions::functions(32);
     // let return_value = control_flow::control_flow(5);
+    // control_flow::control_flow();
 
-    control_flow::control_flow();
+    ownership::ownership();
 }

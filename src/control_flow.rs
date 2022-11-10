@@ -1,3 +1,4 @@
+// https://rinthel.github.io/rust-lang-book-ko/ch03-05-control-flow.html
 // pub fn control_flow(argu: u32) -> u32 {
 pub fn control_flow() {
   // if argu < 5 {
