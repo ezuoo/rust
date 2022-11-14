@@ -4,7 +4,8 @@
 // mod data_type;
 // mod functions;
 // mod control_flow;
-mod ownership;
+// mod ownership;
+mod reference;
 fn main() {
     // println!("Hello, world!");
 
@@ -16,5 +17,5 @@ fn main() {
     // let return_value = control_flow::control_flow(5);
     // control_flow::control_flow();
 
-    ownership::ownership();
+    reference::reference_main();
 }
