@@ -5,8 +5,8 @@
 // mod functions;
 // mod control_flow;
 // mod ownership;
-mod reference;
-// mod slices;
+// mod reference;
+mod slices;
 fn main() {
     // println!("Hello, world!");
 
@@ -18,8 +18,6 @@ fn main() {
     // let return_value = control_flow::control_flow(5);
     // control_flow::control_flow();
     // ownership::ownership();
-    reference::reference_main();
-
-    // let s = String::from("hello world");
-    // println!("{}", slices::slices_main(&s));
+    // reference::reference_main();
+    slices::slices_main();
 }
