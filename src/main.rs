@@ -8,7 +8,8 @@
 // mod reference;
 // mod slices;
 // mod structs;
-mod enumerations;
+// mod enumerations;
+mod pattern_match;
 fn main() {
     // println!("Hello, world!");
 
@@ -22,5 +23,6 @@ fn main() {
     // ownership::ownership();
     // reference::reference_main();
     // slices::slices_main();
-    enumerations::enumerations_main();
+    // enumerations::enumerations_main();
+    pattern_match::pattern_match_main();
 }

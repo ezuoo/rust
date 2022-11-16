@@ -10,10 +10,10 @@
 //   address: String,
 // }
 
-enum Option<T> {
-  Some(T),
-  None,
-}
+// enum Option<T> {
+//   Some(T),
+//   None,
+// }
 pub fn enumerations_main() {
   println!("## enumerations ##");
 
