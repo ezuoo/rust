@@ -6,7 +6,8 @@
 // mod control_flow;
 // mod ownership;
 // mod reference;
-mod slices;
+// mod slices;
+mod structs;
 fn main() {
     // println!("Hello, world!");
 
@@ -19,5 +20,6 @@ fn main() {
     // control_flow::control_flow();
     // ownership::ownership();
     // reference::reference_main();
-    slices::slices_main();
+    // slices::slices_main();
+    structs::structs_main();
 }
