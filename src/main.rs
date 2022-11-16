@@ -7,7 +7,8 @@
 // mod ownership;
 // mod reference;
 // mod slices;
-mod structs;
+// mod structs;
+mod enumerations;
 fn main() {
     // println!("Hello, world!");
 
@@ -21,5 +22,5 @@ fn main() {
     // ownership::ownership();
     // reference::reference_main();
     // slices::slices_main();
-    structs::structs_main();
+    enumerations::enumerations_main();
 }
