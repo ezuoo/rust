@@ -9,7 +9,8 @@
 // mod slices;
 // mod structs;
 // mod enumerations;
-mod pattern_match;
+// mod pattern_match;
+mod collections;
 fn main() {
     // println!("Hello, world!");
 
@@ -24,5 +25,6 @@ fn main() {
     // reference::reference_main();
     // slices::slices_main();
     // enumerations::enumerations_main();
-    pattern_match::pattern_match_main();
+    // pattern_match::pattern_match_main();
+    collections::collections_main();
 }
