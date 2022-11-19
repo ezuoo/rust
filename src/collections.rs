@@ -1,8 +1,11 @@
+use std::collections::HashMap;
+
 pub fn collections_main() {
   println!("## Collections ##");
 
   // vector();
   // string();
+  hash_map();
 }
 
 /*
@@ -78,3 +81,45 @@ fn string() {
   // println!("이주호 length : {}", "이".len());
 }
 */
+
+/*
+
+*/
+fn hash_map() {
+  println!("# Hash Map #");
+
+  /////////////////// create empty hash map ///////////////////
+  // let mut scores = HashMap::new();
+  // scores.insert(String::from("Blue"), 10);
+  // scores.insert(String::from("Yellow"), 50);
+
+  // let teams = vec![String::from("Blue"), String::from("red")];
+  // let initial_scores = vec![10, 20];
+  // let anoter_scores: HashMap<_, _> = teams.iter().zip(initial_scores.iter()).collect();
+
+  // for (k, v) in &anoter_scores {
+  //   println!("{k} : {v}");
+  // }
+
+  // println!("anoter_scores : {:?}", anoter_scores);
+
+  /////////////////// Insert only if there is no value assigned to the update key  ///////////////////
+  // let mut scores = HashMap::new();
+  // scores.insert(String::from("Blue"), 10);
+
+  // scores.entry(String::from("Yellow")).or_insert(50);
+  // scores.entry(String::from("Blue")).or_insert(50);
+
+  // println!("{:?}", scores);
+
+  /////////////////// Updating values based on old values  ///////////////////
+  let text = "hello world wonderful world";
+  let mut map = HashMap::new();
+
+  for word in text.split_whitespace() {
+    let count = map.entry(word).or_insert(0);
+    *count += 1;
+  }
+
+  println!("{:?}", map);
+}
